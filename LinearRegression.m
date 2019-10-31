@@ -22,7 +22,7 @@ t = 1:length(u);
 phi = [y(1:end-1) u(1:end-1)];
 
 % Least squares regression
-theta = [0.95;0.5e-1];
+theta = phi\y(2:end); %[0.95;0.5e-1];
 
 % Predicted output with estimated parameters
 y_pred(1) = 0;
