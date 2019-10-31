@@ -1,2 +1,2 @@
-# GitHub_Tutorial
-Example code to play around using GitHub
+# GitHub Tutorial
+Example code to play around with GitHub
