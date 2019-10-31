@@ -32,7 +32,11 @@ for i = t(1:end-1)
 end
 
 % Plot the data with predictions
+subplot(1,2,1);
+
 plot(t,y,'k*',t,y_pred,'b','LineWidth',1,'MarkerSize',1)
+subplot(1,2,2)
+plot(t,u,'k*',t,y_pred,'b','LineWidth',1,'MarkerSize',1)
 
 
 
